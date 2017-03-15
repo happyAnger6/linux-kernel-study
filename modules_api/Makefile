@@ -1,6 +1,6 @@
 #Makefile
 
-obj-m += waitqueue_mod.o
+obj-m += __module_address.o
 CUR_PATH := $(shell pwd)
 LINUX_KERNEL := $(shell uname -r)
 LINUX_KERNEL_PATH := /usr/src/linux-source-4.4.0/linux-source-4.4.0
